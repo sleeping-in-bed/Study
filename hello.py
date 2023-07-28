@@ -1,4 +1,5 @@
 try:
     print('hello world')
 except Exception as e:
-    pass
+    print(str(e))
+input()
